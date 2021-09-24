@@ -1,5 +1,7 @@
 <?php
 
+
+session_start();
 require("./funcoes.php");
 $empresax = lerArquivo("./empresax.json");
 
@@ -56,11 +58,11 @@ if (
                 <button id="button_lupa" class="material-icons">
                     person_search
                 </button>
-                <!-- <div class='toolbar'>
+                <div class='toolbar'>
 <h2>
     <?php echo 'Olá ' . strtoupper($_SESSION['usuario']) . ' - Login efetutado em: ' .$_SESSION['data_hora']; ?>
 </h2>  
-                </div> -->
+                </div>
                 <button type="button" id="button__cadastrar">CADASTRAR FUNCIONÁRIO</button>
                 <a class="material-icons" href="processa_login.php?logout=true">logout</a>
 
