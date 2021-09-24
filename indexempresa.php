@@ -2,7 +2,7 @@
 
 
 session_start();
-require("./funcoes.php");
+require("./funcoesempresa.php");
 $empresax = lerArquivo("./empresax.json");
 
 if (isset($_GET["buscarFuncionario"])) {

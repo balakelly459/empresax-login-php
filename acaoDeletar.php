@@ -1,10 +1,10 @@
 <?php
 
-require("./funcoes.php");
+require("./funcoesempresa.php");
 
 $idFuncionario = $_GET["id"];
 
 deletarFuncionario("./empresax.json", $idFuncionario);
 
-header("location: index.php");
+header("location: indexempresa.php");
 

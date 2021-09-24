@@ -1,6 +1,6 @@
 <?php
 
-   require("./funcoes.php");
+   require("./funcoesempresa.php");
 
    $funcionarioId = $_GET['id'];
 
